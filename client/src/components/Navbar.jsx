@@ -29,7 +29,6 @@ const Navbar = () => {
           <Link to="/guidance" onClick={() => setMenuOpen(false)}>Guidance</Link>
           <Link to="/planner" onClick={() => setMenuOpen(false)}>Time Management</Link>
           <Link to="/coding" onClick={() => setMenuOpen(false)}>Coding</Link>
-          <Link to="/mentors" onClick={() => setMenuOpen(false)}>Mentors</Link>
           <Link to="/wellbeing" onClick={() => setMenuOpen(false)}>Well-being</Link>
           <button onClick={handleLogout} className="btn-logout">Logout</button>
         </div>

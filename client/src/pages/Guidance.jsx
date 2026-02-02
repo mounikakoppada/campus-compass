@@ -329,7 +329,7 @@ const Guidance = () => {
                             <>
                                 <button className="close-btn" onClick={() => setShowSupportModal(false)}>✕</button>
                                 <h2>Ask a Placement Query</h2>
-                                <p className="modal-subtitle">Admins will see this query. Mentors can reply to you directly if you leave contact info, otherwise they will address it in general sessions.</p>
+                                <p className="modal-subtitle">Admins will see this query. They will address common questions in general guidance sessions.</p>
 
                                 <div className="user-badge" style={{ marginBottom: '1rem', padding: '0.5rem', background: '#f0fdf4', borderRadius: '6px', fontSize: '0.85rem', color: '#166534', border: '1px solid #bbf7d0' }}>
                                     Logged in as: <strong>{user ? user.email : 'Guest'}</strong>

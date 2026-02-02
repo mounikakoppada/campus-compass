@@ -8,7 +8,6 @@ import Roadmap from './pages/Roadmap';
 import Planner from './pages/Planner';
 import Guidance from './pages/Guidance';
 import Coding from './pages/Coding';
-import Mentors from './pages/Mentors';
 import Community from './pages/Community';
 import Wellbeing from './pages/Wellbeing';
 import AdminDashboard from './pages/AdminDashboard';
@@ -42,7 +41,6 @@ function App() {
           <Route path="/coding" element={<PrivateRoute><Coding /></PrivateRoute>} />
           <Route path="/community" element={<PrivateRoute><Community /></PrivateRoute>} />
           <Route path="/wellbeing" element={<PrivateRoute><Wellbeing /></PrivateRoute>} />
-          <Route path="/mentors" element={<PrivateRoute><Mentors /></PrivateRoute>} />
           <Route path="/admin" element={<PrivateRoute><AdminDashboard /></PrivateRoute>} />
           <Route path="/" element={<Navigate to="/roadmap" />} />
         </Routes>
